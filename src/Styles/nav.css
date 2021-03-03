@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+h4, h2{
+    color: white;
+}
+.navbar{
+    display: flex;
+}
+.title{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-left: 100px;
+    text-align: left;
+}
+h4{
+    text-align: center;
+}

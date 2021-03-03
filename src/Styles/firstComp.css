@@ -1,0 +1,5 @@
+.first{
+    background-image: url("../Assets/background2.jpg");
+    height: 100vh;
+    border-bottom: 5px solid #00acec;
+}

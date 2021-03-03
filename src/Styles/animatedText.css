@@ -1,0 +1,311 @@
+@keyframes hamza {
+	
+    0%, 2% {
+        content: "H";
+   }
+    10%, 12% {
+        content: "HA";
+   }
+    20%, 22% {
+        content: "HAM";
+   }
+    30%, 32% {
+        content: "HAMZ";
+   }
+    40%, 42% {
+        content: "HAMZA";
+   }
+    
+    50%, 52% {
+        content: "HAMZ";
+   }
+    
+    60%, 62% {
+        content: "HAM";
+   }
+    
+    70%, 72% {
+        content: "HA";
+   }
+    
+    80%, 82% {
+        content: "H";
+   }
+   90%, 92% {
+       content: "H";
+  }
+  98%, 100% {
+   content: "";
+}
+}
+@keyframes beam-blink {
+    75% {
+        border-color: transparent;
+   }
+}
+* {
+    backface-visibility: hidden;
+}
+#hamza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover, 100% 3px;
+    font-size: calc(10px + 2vw);
+    font-family: 'VT323', monospace, sans-serif;
+    color: #3f3;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#hamza::after {
+    content: "​";
+    position: relative;
+    top: -13px;
+    display: inline-block;
+    padding-right: 3px;
+    padding-right: calc(3px + 0.1vw);
+    border-right: 10px solid rgba(51, 255, 51, 0.75);
+    border-right: calc(1.1vw + 4px) solid rgba(51, 255, 51, 0.75);
+    text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+    white-space: nowrap;
+    animation: hamza 5s linear 1s infinite, beam-blink 1s infinite;
+}
+
+
+
+
+@keyframes saad {
+	
+    0%, 2% {
+        content: "S";
+   }
+    12%, 14% {
+        content: "SA";
+   }
+    26%, 28% {
+        content: "SAA";
+   }
+    40%, 42% {
+        content: "SAAD";
+   }
+    58%, 60% {
+        content: "SAA";
+   }
+    
+    72%, 74% {
+        content: "SA";
+   }
+    
+    86%, 88% {
+        content: "S";
+   }
+    
+    98%, 100% {
+        content: "";
+   }
+}
+@keyframes beam-blink {
+    75% {
+        border-color: transparent;
+   }
+}
+* {
+    backface-visibility: hidden;
+}
+#saad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover, 100% 3px;
+    font-size: calc(10px + 2vw);
+    font-family: 'VT323', monospace, sans-serif;
+    color: #3f3;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#saad::after {
+    content: "​";
+    position: relative;
+    top: -13px;
+    display: inline-block;
+    padding-right: 3px;
+    padding-right: calc(3px + 0.1vw);
+    border-right: 10px solid rgba(51, 255, 51, 0.75);
+    border-right: calc(1.1vw + 4px) solid rgba(51, 255, 51, 0.75);
+    text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+    white-space: nowrap;
+    animation: saad 5s linear 1s infinite, beam-blink 1s infinite;
+}
+
+
+
+@keyframes ijlal {
+	
+    0%, 2% {
+        content: "I";
+   }
+    10%, 12% {
+        content: "IJ";
+   }
+    20%, 22% {
+        content: "IJL";
+   }
+    30%, 32% {
+        content: "IJLA";
+   }
+    40%, 42% {
+        content: "IJLAL";
+   }
+    
+    50%, 52% {
+        content: "IJLA";
+   }
+    
+    60%, 62% {
+        content: "IJL";
+   }
+    
+    70%, 72% {
+        content: "IJ";
+   }
+    
+    80%, 82% {
+        content: "I";
+   }
+   90%, 92% {
+       content: "I";
+  }
+  98%, 100% {
+   content: "";
+}
+}
+@keyframes beam-blink {
+    75% {
+        border-color: transparent;
+   }
+}
+* {
+    backface-visibility: hidden;
+}
+#ijlal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover, 100% 3px;
+    font-size: calc(10px + 2vw);
+    font-family: 'VT323', monospace, sans-serif;
+    color: #3f3;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#ijlal::after {
+    content: "​";
+    position: relative;
+    top: -13px;
+    display: inline-block;
+    padding-right: 3px;
+    padding-right: calc(3px + 0.1vw);
+    border-right: 10px solid rgba(51, 255, 51, 0.75);
+    border-right: calc(1.1vw + 4px) solid rgba(51, 255, 51, 0.75);
+    text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+    white-space: nowrap;
+    animation: ijlal 5s linear 1s infinite, beam-blink 1s infinite;
+}
+
+
+
+@keyframes shehryar {
+	
+    0%, 2% {
+        content: "S";
+   }
+    7%, 9% {
+        content: "SH";
+   }
+    14%, 16% {
+        content: "SHE";
+   }
+    21%, 23% {
+        content: "SHEH";
+   }
+    28%, 30% {
+        content: "SHEHR";
+   }
+    
+    35%, 37% {
+        content: "SHEHRY";
+   }
+    
+    42%, 44% {
+        content: "SHEHRYA";
+   }
+    
+    49%, 51% {
+        content: "SHEHRYAR";
+   }
+    
+    56%, 58% {
+        content: "SHEHRYA";
+   }
+   63%, 65% {
+       content: "SHEHRY";
+  }
+  70%, 72% {
+   content: "SHEHR";
+}
+  77%, 79% {
+    content: "SHEH";
+ }
+  83%, 85% {
+    content: "SHE";
+ }
+  89%, 91% {
+    content: "SH";
+ }
+  95%, 97% {
+    content: "S";
+ }
+  99%, 100% {
+    content: "";
+ }
+}
+@keyframes beam-blink {
+    75% {
+        border-color: transparent;
+   }
+}
+* {
+    backface-visibility: hidden;
+}
+#sherry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: cover, 100% 3px;
+    font-size: calc(10px + 2vw);
+    font-family: 'VT323', monospace, sans-serif;
+    color: #3f3;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#sherry::after {
+    content: "​";
+    position: relative;
+    top: -13px;
+    display: inline-block;
+    padding-right: 3px;
+    padding-right: calc(3px + 0.1vw);
+    border-right: 10px solid rgba(51, 255, 51, 0.75);
+    border-right: calc(1.1vw + 4px) solid rgba(51, 255, 51, 0.75);
+    text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+    white-space: nowrap;
+    animation: shehryar 5s linear 1s infinite, beam-blink 1s infinite;
+}

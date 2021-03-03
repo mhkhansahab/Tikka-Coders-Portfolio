@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,200&display=swap');
+
+.mainCard{
+    width: 100%;
+}
+.myfcard{
+    background-color: #00acec !important;
+    margin: 20px auto;
+    height: 80vh;
+    width: 80%;
+    box-shadow: 0px 0px 8px 0px #00acec !important;
+}
+h3{
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+}
+.flicker{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Fira Mono', monospace;
+  letter-spacing: -4px;
+}
+.lines{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
+
+.lines{
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+.lines:before,
+.lines:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.lines:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+.lines:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg); 
+  }
+}

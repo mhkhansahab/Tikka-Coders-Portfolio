@@ -1,0 +1,16 @@
+.second{
+    background-image: url("../Assets/background1.jpg");
+    height: 100vh;
+    border-top: 5px solid grey;
+}
+
+@media(max-width:1020px){
+    .second{
+        height : 140vh;
+    }
+}
+@media(max-width:500px){
+    .second{
+        height : 240vh;
+    }
+}

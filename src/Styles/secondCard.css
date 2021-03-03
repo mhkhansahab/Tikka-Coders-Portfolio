@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,200&display=swap');
+
+.mainsCard{
+    width: 100%;
+    margin-top: 70px;
+}
+.myscard{
+    background-color: #263238 !important;
+    margin: 0 auto;
+    height: 80vh;
+    width: 80%;
+    box-shadow: 0px 0px 8px 0px #e04040 !important;
+}
+#tikka-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #3f3;
+    text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+}
+
+img{
+    margin-top: 20px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.imgIcons{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#saad, #hamza, #sherry ,#ijlal{
+    margin-top: 50px;
+}
+
+#foo {
+    width: 200px;
+    height: 220px;
+    background:  #3f3;
+    animation: corner 5s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes corner {
+    0% {
+        border-top-left-radius: 1% 50%;
+   }
+    12.5% {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+   }
+    25% {
+        border-top-right-radius: 1% 50%;
+   }
+    25.001% {
+        border-top-right-radius: 50% 1%;
+   }
+    37.5% {
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+   }
+    50% {
+        border-bottom-right-radius: 50% 1%;
+   }
+    50.001% {
+        border-bottom-right-radius: 1% 50%;
+   }
+    62.5% {
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+   }
+    75% {
+        border-bottom-left-radius: 1% 50%;
+   }
+    75.001% {
+        border-bottom-left-radius: 50% 1%;
+   }
+    87.5% {
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+   }
+    100% {
+        border-top-left-radius: 50% 1%;
+   }
+}
+
+
+@media(max-width : 1020px){
+    .myscard{
+        height: 120vh;
+    }
+    #tikka-title{
+        font-size: 40px;
+    }
+    #foo{
+        margin-top: 60px;
+    }
+    
+}
+@media(max-width : 500px){
+    #tikka-title{
+        font-size: 30px;
+    }
+    .myscard{
+        height: 220vh;
+    }
+    
+}
